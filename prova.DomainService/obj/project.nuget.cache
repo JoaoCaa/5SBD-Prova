@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "elq+hrrnN04=",
+  "success": true,
+  "projectFilePath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainService\\prova.DomainService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaoc\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://nuget.medgrupo.com.br/v3/index.json.",
+      "projectPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainService\\prova.DomainService.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainService\\prova.DomainService.csproj",
+      "targetGraphs": []
+    }
+  ]
+}
