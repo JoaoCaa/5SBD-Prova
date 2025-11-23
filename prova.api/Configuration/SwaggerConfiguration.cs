@@ -81,7 +81,7 @@ namespace Prova.Api.Configuration
                     Title = "API - Prova",
                     Version = description.ApiVersion.ToString(),
                     Description = "API - Prova",
-                    Contact = new OpenApiContact() { Name = "Paulo Mello", Email = "paulojosemello@hotmail.com" },
+                    Contact = new OpenApiContact() { Name = "João Victor Caamaño", Email = "joao.23104708360005@faeterj-rio.edu.br" },
                 };
 
             if (description.IsDeprecated)

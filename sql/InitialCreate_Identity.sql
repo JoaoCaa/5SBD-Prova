@@ -1,13 +1,13 @@
 -- Initial create script for ASP.NET Identity schema (ApplicationDbContext)
--- Uses same database as domain script (ProvaDb)
+-- Uses same database as domain script (ProvaAuth)
 
-IF DB_ID(N'ProvaDb') IS NULL
+IF DB_ID(N'ProvaAuth') IS NULL
 BEGIN
-    CREATE DATABASE [ProvaDb];
+    CREATE DATABASE [ProvaAuth];
 END
 GO
 
-USE [ProvaDb];
+USE [ProvaAuth];
 GO
 
 -- AspNetRoles

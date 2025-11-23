@@ -23,14 +23,12 @@ namespace Prova.Api.Controllers
             _logger = logger;
         }
 
-        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<ItemPedidoViewModel>> GetAll()
         {
             return _mapper.Map<IEnumerable<ItemPedidoViewModel>>(await _service.GetAll());
         }
 
-        [AllowAnonymous]
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<ItemPedidoViewModel>> Get(Guid id)
         {
@@ -39,16 +37,16 @@ namespace Prova.Api.Controllers
             return item;
         }
 
-        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Post(ItemPedidoViewModel vm)
         {
             if (!ModelState.IsValid) return BadRequest();
-            await _service.Add(_mapper.Map<ItemPedido>(vm));
+            var item = _mapper.Map<ItemPedido>(vm);
+            item.Id = Guid.NewGuid();
+            await _service.Add(item);
             return Ok();
         }
 
-        [AllowAnonymous]
         [HttpPut("{id:guid}")]
         public async Task<ActionResult> Put(Guid id, ItemPedidoViewModel vm)
         {
@@ -58,7 +56,6 @@ namespace Prova.Api.Controllers
             return Ok();
         }
 
-        [AllowAnonymous]
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult> Delete(Guid id)
         {

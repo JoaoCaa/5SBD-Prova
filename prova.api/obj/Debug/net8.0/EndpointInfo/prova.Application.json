@@ -1,7 +1,12 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Prova.Api",
+    "title": "API - Prova",
+    "description": "API - Prova",
+    "contact": {
+      "name": "João Victor Caamaño",
+      "email": "joao.23104708360005@faeterj-rio.edu.br"
+    },
     "version": "1.0"
   },
   "paths": {
@@ -9,6 +14,17 @@
       "post": {
         "tags": [
           "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
         ],
         "requestBody": {
           "content": {
@@ -41,6 +57,17 @@
         "tags": [
           "Auth"
         ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
+        ],
         "requestBody": {
           "content": {
             "application/json": {
@@ -71,6 +98,17 @@
       "get": {
         "tags": [
           "Cliente"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
         ],
         "responses": {
           "200": {
@@ -107,6 +145,17 @@
       "post": {
         "tags": [
           "Cliente"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
         ],
         "requestBody": {
           "content": {
@@ -165,6 +214,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "responses": {
@@ -203,6 +261,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "requestBody": {
@@ -243,6 +310,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "responses": {
@@ -256,6 +332,17 @@
       "get": {
         "tags": [
           "ItemPedido"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
         ],
         "responses": {
           "200": {
@@ -292,6 +379,17 @@
       "post": {
         "tags": [
           "ItemPedido"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
         ],
         "requestBody": {
           "content": {
@@ -333,6 +431,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "responses": {
@@ -371,6 +478,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "requestBody": {
@@ -411,6 +527,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "responses": {
@@ -424,6 +549,17 @@
       "get": {
         "tags": [
           "Pedido"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
         ],
         "responses": {
           "200": {
@@ -460,6 +596,17 @@
       "post": {
         "tags": [
           "Pedido"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
         ],
         "requestBody": {
           "content": {
@@ -501,6 +648,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "responses": {
@@ -539,6 +695,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "requestBody": {
@@ -579,6 +744,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "responses": {
@@ -592,6 +766,17 @@
       "get": {
         "tags": [
           "Produto"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
         ],
         "responses": {
           "200": {
@@ -628,6 +813,17 @@
       "post": {
         "tags": [
           "Produto"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
+          }
         ],
         "requestBody": {
           "content": {
@@ -669,6 +865,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "responses": {
@@ -707,6 +912,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "requestBody": {
@@ -747,6 +961,15 @@
               "type": "string",
               "format": "uuid"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1.0"
           }
         ],
         "responses": {
@@ -924,6 +1147,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Insert the JWT token like this: Bearer {your token}",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

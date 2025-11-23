@@ -1,13 +1,13 @@
 -- Initial create script for Prova domain (ProvaContext)
 -- Creates database if not exists and all domain tables with constraints
 
-IF DB_ID(N'ProvaDb') IS NULL
+IF DB_ID(N'ProvaAuth') IS NULL
 BEGIN
-    CREATE DATABASE [ProvaDb];
+    CREATE DATABASE [ProvaAuth];
 END
 GO
 
-USE [ProvaDb];
+USE [ProvaAuth];
 GO
 
 -- Cliente

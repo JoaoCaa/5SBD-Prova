@@ -23,14 +23,12 @@ namespace Prova.Api.Controllers
             _logger = logger;
         }
 
-        [AllowAnonymous]
         [HttpGet]
         public async Task<IEnumerable<ClienteViewModel>> GetAll()
         {
             return _mapper.Map<IEnumerable<ClienteViewModel>>(await _service.GetAll());
         }
 
-        [AllowAnonymous]
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<ClienteViewModel>> Get(Guid id)
         {
@@ -39,16 +37,17 @@ namespace Prova.Api.Controllers
             return cliente;
         }
 
-        [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult<ClienteViewModel>> Post(ClienteViewModel vm)
         {
             if (!ModelState.IsValid) return BadRequest();
-            await _service.Add(_mapper.Map<Cliente>(vm));
+            var cliente = _mapper.Map<Cliente>(vm);
+            // ensure server generates the id
+            cliente.Id = Guid.NewGuid();
+            await _service.Add(cliente);
             return Ok();
         }
 
-        [AllowAnonymous]
         [HttpPut("{id:guid}")]
         public async Task<ActionResult> Put(Guid id, ClienteViewModel vm)
         {
@@ -58,7 +57,6 @@ namespace Prova.Api.Controllers
             return Ok();
         }
 
-        [AllowAnonymous]
         [HttpDelete("{id:guid}")]
         public async Task<ActionResult> Delete(Guid id)
         {

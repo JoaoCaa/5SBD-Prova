@@ -6,9 +6,11 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Prova.Api.Controllers
 {
+    [AllowAnonymous]
     [Route("api/account")]
     [ApiController]
     public class AuthController : ControllerBase
@@ -27,6 +29,7 @@ namespace Prova.Api.Controllers
             _logger = logger;
         }
 
+        [AllowAnonymous]
         [HttpPost("novo-usuario")]
         public async Task<ActionResult> Register([FromBody] RegisterUserViewModel registerUser)
         {
@@ -53,6 +56,7 @@ namespace Prova.Api.Controllers
             return Ok(registerUser);
         }
 
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<ActionResult> Login([FromBody] LoginUserViewModel loginUser)
         {
