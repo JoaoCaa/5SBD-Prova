@@ -12,5 +12,6 @@ namespace Prova.DomainModel.Interfaces.Services
         Task Delete(Guid id);
         Task<ItemPedido> Get(Guid id);
         Task<IEnumerable<ItemPedido>> GetAll();
+        Task<IEnumerable<ItemPedido>> GetByPedido(Guid pedidoId);
     }
 }

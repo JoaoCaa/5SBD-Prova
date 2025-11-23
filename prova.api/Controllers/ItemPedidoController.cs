@@ -24,8 +24,14 @@ namespace Prova.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<ItemPedidoViewModel>> GetAll()
+        public async Task<IEnumerable<ItemPedidoViewModel>> GetAll([FromQuery] Guid? pedidoId)
         {
+            if (pedidoId.HasValue)
+            {
+                var items = await _service.GetByPedido(pedidoId.Value);
+                return _mapper.Map<IEnumerable<ItemPedidoViewModel>>(items);
+            }
+
             return _mapper.Map<IEnumerable<ItemPedidoViewModel>>(await _service.GetAll());
         }
 
@@ -43,8 +49,21 @@ namespace Prova.Api.Controllers
             if (!ModelState.IsValid) return BadRequest();
             var item = _mapper.Map<ItemPedido>(vm);
             item.Id = Guid.NewGuid();
-            await _service.Add(item);
-            return Ok();
+            try
+            {
+                await _service.Add(item);
+                return Ok();
+            }
+            catch (InvalidOperationException ex)
+            {
+                // estoque insuficiente
+                return BadRequest(new { message = ex.Message });
+            }
+            catch (ArgumentException ex)
+            {
+                // produto nao encontrado
+                return NotFound(new { message = ex.Message });
+            }
         }
 
         [HttpPut("{id:guid}")]

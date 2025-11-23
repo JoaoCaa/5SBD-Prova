@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prova.DomainService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+611eb958437b4a3ff4c9099240808e07840a2656")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4be94c36af7f36d91040965a365aba91a561f522")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prova.DomainService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prova.DomainService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

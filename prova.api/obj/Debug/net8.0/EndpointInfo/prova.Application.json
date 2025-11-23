@@ -335,6 +335,14 @@
         ],
         "parameters": [
           {
+            "name": "pedidoId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
             "name": "api-version",
             "in": "query",
             "description": "The requested API version",

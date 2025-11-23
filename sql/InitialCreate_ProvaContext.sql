@@ -47,7 +47,7 @@ BEGIN
         Id UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID(),
         ClienteId UNIQUEIDENTIFIER NOT NULL,
         DataPedido DATETIME NOT NULL,
-        Total DECIMAL(18,2) NOT NULL,
+        Total DECIMAL(18,2) NOT NULL DEFAULT(0),
         CONSTRAINT PK_Pedido PRIMARY KEY (Id),
         CONSTRAINT FK_Pedido_Cliente FOREIGN KEY (ClienteId) REFERENCES dbo.Cliente (Id) ON DELETE NO ACTION
     );
@@ -67,6 +67,30 @@ BEGIN
         CONSTRAINT FK_ItemPedido_Pedido FOREIGN KEY (PedidoId) REFERENCES dbo.Pedido (Id) ON DELETE CASCADE,
         CONSTRAINT FK_ItemPedido_Produto FOREIGN KEY (ProdutoId) REFERENCES dbo.Produto (Id) ON DELETE NO ACTION
     );
+END
+GO
+
+-- Trigger to maintain Pedido.Total as sum of its ItemPedido (Preco * Quantidade)
+IF OBJECT_ID('dbo.trg_ItemPedido_UpdatePedidoTotal', 'TR') IS NULL
+BEGIN
+    EXEC('CREATE TRIGGER dbo.trg_ItemPedido_UpdatePedidoTotal
+    ON dbo.ItemPedido
+    AFTER INSERT, UPDATE, DELETE
+    AS
+    BEGIN
+        SET NOCOUNT ON;
+
+        ;WITH AffectedPedidos AS (
+            SELECT DISTINCT PedidoId FROM inserted
+            UNION
+            SELECT DISTINCT PedidoId FROM deleted
+        )
+
+        UPDATE p
+        SET Total = ISNULL((SELECT SUM(i.Preco * i.Quantidade) FROM dbo.ItemPedido i WHERE i.PedidoId = ap.PedidoId), 0)
+        FROM dbo.Pedido p
+        INNER JOIN AffectedPedidos ap ON p.Id = ap.PedidoId;
+    END')
 END
 GO
 

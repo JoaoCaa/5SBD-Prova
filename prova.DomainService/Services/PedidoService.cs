@@ -22,19 +22,14 @@ namespace Prova.DomainService
 
         public async Task Add(Pedido pedido)
         {
-            // calcula total se houver items
-            if (pedido.Items != null)
-                pedido.Total = pedido.Items.Sum(i => i.Preco * i.Quantidade);
-
+            // Total is maintained in the database (trigger). Do not calculate here.
             _pedidoRepository.Create(pedido);
             await _unitOfWork.CommitAsync();
         }
 
         public async Task Update(Pedido pedido)
         {
-            if (pedido.Items != null)
-                pedido.Total = pedido.Items.Sum(i => i.Preco * i.Quantidade);
-
+            // Total is maintained in the database (trigger). Do not calculate here.
             _pedidoRepository.Update(pedido);
             await _unitOfWork.CommitAsync();
         }
@@ -47,12 +42,12 @@ namespace Prova.DomainService
 
         public async Task<IEnumerable<Pedido>> GetAll()
         {
-            return await _pedidoRepository.ReadAll();
+            return await _pedidoRepository.GetPedidos();
         }
 
         public async Task<Pedido> Get(Guid id)
         {
-            return await _pedidoRepository.Read(id);
+            return await _pedidoRepository.GetPedido(id);
         }
     }
 }

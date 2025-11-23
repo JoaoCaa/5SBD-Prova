@@ -41,7 +41,7 @@ namespace prova.test
         {
             var id = Guid.NewGuid();
             var pedido = new Pedido { Id = id, Cliente = new Cliente { Id = Guid.NewGuid(), Nome = "C" }, Items = new List<ItemPedido>() };
-            _repoMock.Setup(r => r.Read(id)).ReturnsAsync(pedido);
+            _repoMock.Setup(r => r.GetPedido(id)).ReturnsAsync(pedido);
 
             var result = await _service.Get(id);
 
