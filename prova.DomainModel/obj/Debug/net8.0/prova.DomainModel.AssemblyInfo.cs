@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prova.DomainModel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f714c70376f36f79d56537fc72de41d1b3ebdad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe1f00f33e70132c1a793928baabbe874f4c974b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prova.DomainModel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prova.DomainModel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
