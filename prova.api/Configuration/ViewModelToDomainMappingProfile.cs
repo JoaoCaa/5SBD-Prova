@@ -11,8 +11,7 @@ namespace MedGrupo.Api.Configuration
             var dtoConfig = AutoMapperConfig.RegisterViewModelDomainMappings();
             var mapper = dtoConfig.CreateMapper();
 
-            //Contato
-            CreateMap<ContatoViewModel, Contato>();
+            // (Contato flow removed)
             // Cliente
             CreateMap<ClienteViewModel, Cliente>();
 

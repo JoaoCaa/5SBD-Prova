@@ -97,3 +97,4 @@ c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.api\obj\Debug\net8.0\refint\prova.Appl
 c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.api\obj\Debug\net8.0\prova.Application.pdb
 c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.api\obj\Debug\net8.0\prova.Application.genruntimeconfig.cache
 c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.api\obj\Debug\net8.0\ref\prova.Application.dll
+C:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

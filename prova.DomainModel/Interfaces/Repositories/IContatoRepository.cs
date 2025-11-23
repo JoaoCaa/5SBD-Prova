@@ -1,14 +1,2 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using MedGrupo.DomainModel.Entity;
-
-namespace MedGrupo.DomainModel.Interfaces.Repositories
-{
-    public interface IContatoRepository : IRepository<Contato>
-    {
-        Task<IEnumerable<Contato>> GetContatos();
-
-        Task<Contato> GetContato(Guid id);
-    }
-}
+﻿// Contato repository interface removed — placeholder file kept intentionally.
+// All Contato-related repository interfaces were removed from the project.

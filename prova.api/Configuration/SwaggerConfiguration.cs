@@ -80,7 +80,7 @@ namespace MedGrupo.Api.Configuration
             {
                 Title = "API - MedGrupo",
                 Version = description.ApiVersion.ToString(),
-                Description = "Api de Gestão de Contatos",
+                Description = "API - MedGrupo",
                 Contact = new OpenApiContact() { Name = "Paulo Mello", Email = "paulojosemello@hotmail.com" },
             };
 

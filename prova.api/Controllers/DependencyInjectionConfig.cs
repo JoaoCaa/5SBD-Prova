@@ -26,9 +26,7 @@ namespace MedGrupo.Api.Configuration
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 
          
-            // Contato
-            services.AddScoped<IContatoRepository, ContatoRepository>();
-            services.AddScoped<IContatoService, ContatoService>();
+            // (Contato flow removed)
             // Cliente
             services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<IClienteService, ClienteService>();

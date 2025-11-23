@@ -15,6 +15,12 @@
     <PackageReference Include="NUnit" Version="3.14.0" />
     <PackageReference Include="NUnit.Analyzers" Version="3.9.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+    <PackageReference Include="Moq" Version="4.20.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\prova.DomainModel\prova.DomainModel.csproj" />
+    <ProjectReference Include="..\prova.DomainService\prova.DomainService.csproj" />
   </ItemGroup>
 
   <ItemGroup>

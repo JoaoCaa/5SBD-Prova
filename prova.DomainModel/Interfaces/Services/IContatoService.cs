@@ -7,10 +7,7 @@ namespace MedGrupo.DomainModel.Interfaces.Services
 {
     public interface IContatoService
     {  
-        Task Add(Contato Contato);
-        Task Update(Contato Contato);
-        Task Delete(Guid id);
-        Task<Contato> Get(Guid id);
-        Task<IEnumerable<Contato>> GetAll();
+           // All Contato-related methods removed — placeholder interface kept intentionally.
+           // This interface is now neutralized and does not reference Contato type.
     }
 }

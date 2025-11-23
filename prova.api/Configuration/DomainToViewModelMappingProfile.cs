@@ -8,7 +8,7 @@ namespace MedGrupo.Api.Configuration
     {
         public DomainToViewModelMappingProfile()
         {
-            CreateMap<Contato, ContatoViewModel>().ReverseMap();
+            // Contato mapping removed
             CreateMap<Cliente, ClienteViewModel>().ReverseMap();
             CreateMap<Produto, ProdutoViewModel>().ReverseMap();
             CreateMap<Pedido, PedidoViewModel>().ReverseMap();

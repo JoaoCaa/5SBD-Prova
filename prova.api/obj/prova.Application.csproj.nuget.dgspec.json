@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\prova.Application.csproj": {}
+    "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\prova.Application.csproj": {}
   },
   "projects": {
-    "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\prova.Application.csproj": {
+    "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\prova.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\prova.Application.csproj",
+        "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\prova.Application.csproj",
         "projectName": "prova.Application",
-        "projectPath": "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\prova.Application.csproj",
+        "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\prova.Application.csproj",
         "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
-        "outputPath": "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\obj\\",
+        "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -36,8 +36,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
-                "projectPath": "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj"
+              "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
+                "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj"
               },
               "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj": {
                 "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj"
@@ -116,14 +116,14 @@
         }
       }
     },
-    "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
+    "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj",
+        "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj",
         "projectName": "prova.DomainModel",
-        "projectPath": "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj",
+        "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj",
         "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
-        "outputPath": "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\obj\\",
+        "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -223,8 +223,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
-                "projectPath": "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj"
+              "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
+                "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj"
               }
             }
           }
@@ -296,8 +296,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
-                "projectPath": "c:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj"
+              "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
+                "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj"
               },
               "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj": {
                 "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj"

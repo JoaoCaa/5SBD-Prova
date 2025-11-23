@@ -98,3 +98,13 @@ c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\obj\Debug\net8.0\refint\prova.tes
 c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\obj\Debug\net8.0\prova.test.pdb
 c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\obj\Debug\net8.0\prova.test.genruntimeconfig.cache
 c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\obj\Debug\net8.0\ref\prova.test.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\CoverletSourceRootsMapping_prova.test
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\Castle.Core.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\Moq.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\prova.DomainModel.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\prova.DomainService.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\prova.DomainModel.pdb
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.test\bin\Debug\net8.0\prova.DomainService.pdb
