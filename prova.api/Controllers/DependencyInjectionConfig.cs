@@ -29,6 +29,20 @@ namespace MedGrupo.Api.Configuration
             // Contato
             services.AddScoped<IContatoRepository, ContatoRepository>();
             services.AddScoped<IContatoService, ContatoService>();
+            // Cliente
+            services.AddScoped<IClienteRepository, ClienteRepository>();
+            services.AddScoped<IClienteService, ClienteService>();
+
+            // Produto
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IProdutoService, ProdutoService>();
+
+            // Pedido / ItemPedido
+            services.AddScoped<IPedidoRepository, PedidoRepository>();
+            services.AddScoped<IPedidoService, PedidoService>();
+
+            services.AddScoped<IItemPedidoRepository, ItemPedidoRepository>();
+            services.AddScoped<IItemPedidoService, ItemPedidoService>();
             
             return services;
         }

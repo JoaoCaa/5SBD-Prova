@@ -19,7 +19,7 @@ namespace MedGrupo.Infra.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("SqlServer:ValueGenerationStrategy", "IdentityColumn");
 
             modelBuilder.Entity("MedGrupo.DomainModel.Entity.Contato", b =>
                 {

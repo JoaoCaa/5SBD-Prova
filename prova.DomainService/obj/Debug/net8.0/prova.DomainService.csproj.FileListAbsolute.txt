@@ -1,0 +1,16 @@
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\bin\Debug\net8.0\prova.DomainService.deps.json
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\bin\Debug\net8.0\prova.DomainService.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\bin\Debug\net8.0\prova.DomainService.pdb
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\bin\Debug\net8.0\prova.DomainModel.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\bin\Debug\net8.0\prova.DomainModel.pdb
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\prova.DomainService.csproj.AssemblyReference.cache
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\prova.DomainService.GeneratedMSBuildEditorConfig.editorconfig
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\prova.DomainService.AssemblyInfoInputs.cache
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\prova.DomainService.AssemblyInfo.cs
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\prova.DomainService.csproj.CoreCompileInputs.cache
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\prova.DomainService.sourcelink.json
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\prova.Do.A0DB8016.Up2Date
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\prova.DomainService.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\refint\prova.DomainService.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\prova.DomainService.pdb
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainService\obj\Debug\net8.0\ref\prova.DomainService.dll

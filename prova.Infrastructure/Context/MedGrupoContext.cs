@@ -8,6 +8,10 @@ namespace MedGrupo.Infra.Context
     public class MedGrupoContext : DbContext
     {
         public DbSet<Contato> Contatos { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
+        public DbSet<ItemPedido> ItemPedidos { get; set; }
 
         public MedGrupoContext(DbContextOptions<MedGrupoContext> options) : base(options)
         {
@@ -23,6 +27,10 @@ namespace MedGrupo.Infra.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ContatoMapping());
+            modelBuilder.ApplyConfiguration(new ClienteMapping());
+            modelBuilder.ApplyConfiguration(new ProdutoMapping());
+            modelBuilder.ApplyConfiguration(new PedidoMapping());
+            modelBuilder.ApplyConfiguration(new ItemPedidoMapping());
 
             base.OnModelCreating(modelBuilder);
         }

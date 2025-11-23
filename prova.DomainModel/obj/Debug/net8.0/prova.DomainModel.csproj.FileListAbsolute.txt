@@ -1,0 +1,13 @@
+C:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\bin\Debug\net8.0\prova.DomainModel.deps.json
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\bin\Debug\net8.0\prova.DomainModel.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\bin\Debug\net8.0\prova.DomainModel.pdb
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\prova.DomainModel.csproj.AssemblyReference.cache
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\prova.DomainModel.GeneratedMSBuildEditorConfig.editorconfig
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\prova.DomainModel.AssemblyInfoInputs.cache
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\prova.DomainModel.AssemblyInfo.cs
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\prova.DomainModel.csproj.CoreCompileInputs.cache
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\prova.DomainModel.sourcelink.json
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\prova.DomainModel.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\refint\prova.DomainModel.dll
+c:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\prova.DomainModel.pdb
+C:\Fontes\Faculdade\5SBD\5SBD-Prova\prova.DomainModel\obj\Debug\net8.0\ref\prova.DomainModel.dll

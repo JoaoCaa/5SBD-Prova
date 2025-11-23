@@ -13,6 +13,15 @@ namespace MedGrupo.Api.Configuration
 
             //Contato
             CreateMap<ContatoViewModel, Contato>();
+            // Cliente
+            CreateMap<ClienteViewModel, Cliente>();
+
+            // Produto
+            CreateMap<ProdutoViewModel, Produto>();
+
+            // Pedido
+            CreateMap<PedidoViewModel, Pedido>();
+            CreateMap<ItemPedidoViewModel, ItemPedido>();
             //   .ConstructUsing(a => new AddContatoCommand(mapper.Map<ContatoViewModel, Contato>(a)));
 
             //CreateMap<ContatoViewModel, UpdateContatoCommand>()

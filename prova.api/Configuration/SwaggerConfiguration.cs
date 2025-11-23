@@ -18,20 +18,28 @@ namespace MedGrupo.Api.Configuration
             {
                 c.OperationFilter<SwaggerDefaultValues>();
 
-                var security = new Dictionary<string, IEnumerable<string>>
-                {
-                    {"Bearer", new string[] { }}
-                };
-
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {
                     Description = "Insert the JWT token like this: Bearer {your token}",
-                    Name = "Authorization", // Use "Authorization" para o cabeçalho
+                    Name = "Authorization",
                     In = ParameterLocation.Header,
-                    Type = SecuritySchemeType.ApiKey
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer",
+                    Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
                 });
 
-                c.AddSecurityRequirement(security);
+                var requirement = new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" }
+                        },
+                        new string[] { }
+                    }
+                };
+
+                c.AddSecurityRequirement(requirement);
             });
 
             return services;
@@ -107,9 +115,10 @@ namespace MedGrupo.Api.Configuration
                     parameter.Description = description.ModelMetadata?.Description;
                 }
 
-                if (parameter.Example == null)
+                if (parameter.Example == null && description.DefaultValue != null)
                 {
-                    parameter.Example = description.DefaultValue;
+                    // converter para OpenApiAny
+                    parameter.Example = new Microsoft.OpenApi.Any.OpenApiString(description.DefaultValue.ToString());
                 }
 
                 parameter.Required |= description.IsRequired;

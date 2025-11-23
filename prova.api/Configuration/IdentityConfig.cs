@@ -1,8 +1,14 @@
-﻿
-using MedGrupo.Application.Data;
+﻿using MedGrupo.Application.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using MedGrupo.Api.Utils;
 
-namespace ProvaMed.Api.Configuration
+namespace MedGrupo.Api.Configuration
 {
     public static class IdentityConfig
     {
@@ -13,8 +19,7 @@ namespace ProvaMed.Api.Configuration
                 opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             });
 
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddRoles<IdentityRole>()
+            services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
