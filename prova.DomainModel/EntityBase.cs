@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MedGrupo.DomainModel
+namespace Prova.DomainModel
 {
     public abstract class EntityBase
     {

@@ -1,4 +1,4 @@
-﻿namespace MedGrupo.Api.Utils
+﻿namespace Prova.Api.Utils
 {
     public class AppSettings
     {

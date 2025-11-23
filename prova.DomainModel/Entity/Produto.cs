@@ -1,6 +1,6 @@
 using Newtonsoft.Json;
 
-namespace MedGrupo.DomainModel.Entity
+namespace Prova.DomainModel.Entity
 {
     [JsonObject(IsReference = true)]
     public class Produto : EntityBase

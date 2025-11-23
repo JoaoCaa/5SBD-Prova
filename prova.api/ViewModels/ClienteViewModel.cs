@@ -1,7 +1,6 @@
-using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MedGrupo.Api.ViewModels
+namespace Prova.Api.ViewModels
 {
     public class ClienteViewModel
     {

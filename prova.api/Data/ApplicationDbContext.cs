@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace MedGrupo.Application.Data
+namespace Prova.Application.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

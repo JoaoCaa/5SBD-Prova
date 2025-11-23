@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 
-namespace MedGrupo.DomainModel.Entity
+namespace Prova.DomainModel.Entity
 {
     [JsonObject(IsReference = true)]
     public class Pedido : EntityBase

@@ -281,30 +281,30 @@
           }
         }
       },
-      "prova.DomainModel/1.0.0": {
+      "Prova.DomainModel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/prova.DomainModel.dll": {}
+          "bin/placeholder/Prova.DomainModel.dll": {}
         },
         "runtime": {
-          "bin/placeholder/prova.DomainModel.dll": {}
+          "bin/placeholder/Prova.DomainModel.dll": {}
         }
       },
-      "prova.DomainService/1.0.0": {
+      "Prova.DomainService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "prova.DomainModel": "1.0.0"
+          "Prova.DomainModel": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/prova.DomainService.dll": {}
+          "bin/placeholder/Prova.DomainService.dll": {}
         },
         "runtime": {
-          "bin/placeholder/prova.DomainService.dll": {}
+          "bin/placeholder/Prova.DomainService.dll": {}
         }
       }
     }
@@ -781,12 +781,12 @@
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
-    "prova.DomainModel/1.0.0": {
+    "Prova.DomainModel/1.0.0": {
       "type": "project",
       "path": "../prova.DomainModel/prova.DomainModel.csproj",
       "msbuildProject": "../prova.DomainModel/prova.DomainModel.csproj"
     },
-    "prova.DomainService/1.0.0": {
+    "Prova.DomainService/1.0.0": {
       "type": "project",
       "path": "../prova.DomainService/prova.DomainService.csproj",
       "msbuildProject": "../prova.DomainService/prova.DomainService.csproj"
@@ -797,8 +797,8 @@
       "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.10",
       "Pomelo.EntityFrameworkCore.MySql >= 8.0.2",
-      "prova.DomainModel >= 1.0.0",
-      "prova.DomainService >= 1.0.0"
+      "Prova.DomainModel >= 1.0.0",
+      "Prova.DomainService >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -810,7 +810,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\prova.Infrastructure.csproj",
-      "projectName": "prova.Infrastructure",
+      "projectName": "Prova.Infrastructure",
       "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\prova.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
       "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\obj\\",

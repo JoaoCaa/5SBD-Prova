@@ -6,19 +6,19 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "prova.test/1.0.0": {
+      "Prova.Test/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "Moq": "4.20.0",
           "NUnit": "3.14.0",
           "NUnit.Analyzers": "3.9.0",
           "NUnit3TestAdapter": "4.5.0",
-          "coverlet.collector": "6.0.0",
-          "prova.DomainModel": "1.0.0",
-          "prova.DomainService": "1.0.0"
+          "Prova.DomainModel": "1.0.0",
+          "Prova.DomainService": "1.0.0",
+          "coverlet.collector": "6.0.0"
         },
         "runtime": {
-          "prova.test.dll": {}
+          "Prova.Test.dll": {}
         }
       },
       "Castle.Core/5.1.1": {
@@ -365,32 +365,30 @@
         }
       },
       "System.Reflection.Metadata/1.6.0": {},
-      "prova.DomainModel/1.0.0": {
+      "Prova.DomainModel/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "prova.DomainModel.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "Prova.DomainModel.dll": {
+            "fileVersion": "0.0.0.0"
           }
         }
       },
-      "prova.DomainService/1.0.0": {
+      "Prova.DomainService/1.0.0": {
         "dependencies": {
-          "prova.DomainModel": "1.0.0"
+          "Prova.DomainModel": "1.0.0"
         },
         "runtime": {
-          "prova.DomainService.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+          "Prova.DomainService.dll": {
+            "fileVersion": "0.0.0.0"
           }
         }
       }
     }
   },
   "libraries": {
-    "prova.test/1.0.0": {
+    "Prova.Test/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -514,12 +512,12 @@
       "path": "system.reflection.metadata/1.6.0",
       "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
     },
-    "prova.DomainModel/1.0.0": {
+    "Prova.DomainModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "prova.DomainService/1.0.0": {
+    "Prova.DomainService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

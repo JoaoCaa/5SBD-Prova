@@ -1,8 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using MedGrupo.DomainModel.Entity;
+using Prova.DomainModel.Entity;
 
-namespace MedGrupo.Infra.Mappings
+namespace Prova.Infra.Mappings
 {
     public class ItemPedidoMapping : IEntityTypeConfiguration<ItemPedido>
     {

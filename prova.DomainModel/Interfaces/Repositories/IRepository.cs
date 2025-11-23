@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Prova.DomainModel;
 
-namespace MedGrupo.DomainModel.Interfaces.Repositories
+namespace Prova.DomainModel.Interfaces.Repositories
 {
     public interface IRepository<TEntity> where TEntity : EntityBase
     {

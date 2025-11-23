@@ -3,18 +3,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MedGrupo.DomainModel;
-using MedGrupo.DomainModel.Interfaces.Repositories;
-using MedGrupo.Infra.Context;
+using Prova.DomainModel;
+using Prova.DomainModel.Interfaces.Repositories;
+using Prova.Infra.Context;
 
-namespace MedGrupo.Infra.Repository
+namespace Prova.Infra.Repository
 {
     public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : EntityBase, new()
     {
-        protected readonly MedGrupoContext Db;
+        protected readonly ProvaContext Db;
         protected readonly DbSet<TEntity> DbSet;
 
-        protected Repository(MedGrupoContext db)
+        protected Repository(ProvaContext db)
         {
             Db = db;
             DbSet = db.Set<TEntity>();

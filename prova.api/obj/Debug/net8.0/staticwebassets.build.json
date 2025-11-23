@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "13VEkR3hB2CLJhhrrH55izCsCILeHYLKShdU0WRRcPU=",
-  "Source": "prova.Application",
-  "BasePath": "_content/prova.Application",
+  "Hash": "H3k70ZkwfF7Db0jwiLG7Quc/nhOTApkXgeKwHyQhHcM=",
+  "Source": "Prova.Api",
+  "BasePath": "_content/Prova.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

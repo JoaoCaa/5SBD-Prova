@@ -2,10 +2,10 @@ using System;
 using System.Threading.Tasks;
 using Moq;
 using NUnit.Framework;
-using MedGrupo.DomainModel.Entity;
-using MedGrupo.DomainModel.Interfaces.Repositories;
-using MedGrupo.DomainModel.Interfaces.UoW;
-using MedGrupo.DomainService;
+using Prova.DomainModel.Entity;
+using Prova.DomainModel.Interfaces.Repositories;
+using Prova.DomainModel.Interfaces.UoW;
+using Prova.DomainService;
 
 namespace prova.test
 {

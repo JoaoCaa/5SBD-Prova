@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MedGrupo.Api.Configuration
+namespace Prova.Api.Configuration
 {
     public static class SwaggerConfig
     {
@@ -76,13 +76,13 @@ namespace MedGrupo.Api.Configuration
 
         static OpenApiInfo CreateInfoForApiVersion(ApiVersionDescription description)
         {
-            var info = new OpenApiInfo()
-            {
-                Title = "API - MedGrupo",
-                Version = description.ApiVersion.ToString(),
-                Description = "API - MedGrupo",
-                Contact = new OpenApiContact() { Name = "Paulo Mello", Email = "paulojosemello@hotmail.com" },
-            };
+                var info = new OpenApiInfo()
+                {
+                    Title = "API - Prova",
+                    Version = description.ApiVersion.ToString(),
+                    Description = "API - Prova",
+                    Contact = new OpenApiContact() { Name = "Paulo Mello", Email = "paulojosemello@hotmail.com" },
+                };
 
             if (description.IsDeprecated)
             {

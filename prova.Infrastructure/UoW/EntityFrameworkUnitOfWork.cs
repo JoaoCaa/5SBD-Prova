@@ -1,14 +1,14 @@
 ﻿using System.Threading.Tasks;
-using MedGrupo.DomainModel.Interfaces.UoW;
-using MedGrupo.Infra.Context;
+using Prova.DomainModel.Interfaces.UoW;
+using Prova.Infra.Context;
 
-namespace MedGrupo.Infra.UoW
+namespace Prova.Infra.UoW
 {
     public class EntityFrameworkUnitOfWork : IUnitOfWork
     {
-        private readonly MedGrupoContext _context;
+        private readonly ProvaContext _context;
 
-        public EntityFrameworkUnitOfWork(MedGrupoContext context)
+        public EntityFrameworkUnitOfWork(ProvaContext context)
         {
             this._context = context;
         }

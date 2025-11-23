@@ -1,14 +1,12 @@
-﻿using MedGrupo.Application.Data;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Configuration;
-using Microsoft.EntityFrameworkCore;
+﻿using Prova.Api.Utils;
+using Prova.Application.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using MedGrupo.Api.Utils;
 
-namespace MedGrupo.Api.Configuration
+namespace Prova.Api.Configuration
 {
     public static class IdentityConfig
     {
@@ -16,7 +14,11 @@ namespace MedGrupo.Api.Configuration
         {
             services.AddDbContext<ApplicationDbContext>(opts =>
             {
-                opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
+                // Use SQL Server with transient error resiliency enabled
+                opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection"), sqlOptions =>
+                {
+                    sqlOptions.EnableRetryOnFailure();
+                });
             });
 
             services.AddIdentity<IdentityUser, IdentityRole>()
@@ -28,7 +30,12 @@ namespace MedGrupo.Api.Configuration
             services.Configure<AppSettings>(appSettingsSection);
 
             var appSettings = appSettingsSection.Get<AppSettings>();
-            var key = Encoding.ASCII.GetBytes(appSettings.Secret);
+            if (appSettings == null)
+            {
+                throw new InvalidOperationException("AppSettings section is missing in configuration. Add AppSettings in appsettings.json with Secret/Issuer/ValidIn/ExpirationHours");
+            }
+
+            var key = Encoding.ASCII.GetBytes(appSettings.Secret ?? string.Empty);
 
             services.AddAuthentication(x =>
             {

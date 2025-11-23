@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MedGrupo.Infra.Context;
+using Prova.Infra.Context;
 
-namespace MedGrupo.Infra.Migrations
+namespace Prova.Infra.Migrations
 {
-    [DbContext(typeof(MedGrupoContext))]
+    [DbContext(typeof(ProvaContext))]
     [Migration("20191228051345_initial")]
     partial class initial
     {
@@ -21,7 +21,7 @@ namespace MedGrupo.Infra.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", "IdentityColumn");
 
-            modelBuilder.Entity("MedGrupo.DomainModel.Entity.Contato", b =>
+            modelBuilder.Entity("Prova.DomainModel.Entity.Contato", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();

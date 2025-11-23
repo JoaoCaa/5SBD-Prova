@@ -1,22 +1,22 @@
-﻿using Microsoft.Extensions.Options;
+﻿using Prova.DomainModel.Interfaces.Repositories;
+using Prova.DomainModel.Interfaces.Services;
+using Prova.DomainModel.Interfaces.UoW;
+using Prova.DomainService;
+using Prova.Infra.Context;
+using Prova.Infra.Repository;
+using Prova.Infra.UoW;
+using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
-using MedGrupo.DomainModel.Interfaces.Repositories;
-using MedGrupo.DomainModel.Interfaces.Services;
-using MedGrupo.DomainModel.Interfaces.UoW;
-using MedGrupo.DomainService;
-using MedGrupo.Infra.Context;
-using MedGrupo.Infra.UoW;
-using MedGrupo.Infra.Repository;
 
 
 
-namespace MedGrupo.Api.Configuration
+namespace Prova.Api.Configuration
 {
     public static class DependencyInjectionConfig
     {
         public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
-            services.AddScoped<MedGrupoContext>();
+            services.AddScoped<ProvaContext>();
 
             // Unit Of Work
             services.AddScoped<IUnitOfWork, EntityFrameworkUnitOfWork>();

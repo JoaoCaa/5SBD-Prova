@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using System;
 
-namespace MedGrupo.DomainModel.Entity
+namespace Prova.DomainModel.Entity
 {
     [JsonObject(IsReference = true)]
     public class Cliente : EntityBase

@@ -1,2 +1,0 @@
-﻿// Contato mapping removed — placeholder file left intentionally to avoid accidental references.
-// The Contato flow (entity, repository, service, controller, viewmodel) was removed per project request.

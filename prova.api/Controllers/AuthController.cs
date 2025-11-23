@@ -1,19 +1,13 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Prova.Api.Utils;
+using Prova.Api.ViewModels;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using System;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using MedGrupo.Api.Utils;
-using MedGrupo.Api.ViewModels;
-using MedGrupo.Api.Utils;
 
-namespace MedGrupo.Api.Controllers
+namespace Prova.Api.Controllers
 {
     [Route("api/account")]
     [ApiController]

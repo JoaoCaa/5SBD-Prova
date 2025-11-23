@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace MedGrupo.Infra.Migrations
+namespace Prova.Infra.Migrations
 {
     public partial class initial : Migration
     {

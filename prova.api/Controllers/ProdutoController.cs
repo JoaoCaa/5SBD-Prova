@@ -1,15 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 using AutoMapper;
+using Prova.Api.ViewModels;
+using Prova.DomainModel.Entity;
+using Prova.DomainModel.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using MedGrupo.Api.ViewModels;
-using MedGrupo.DomainModel.Entity;
-using MedGrupo.DomainModel.Interfaces.Services;
 
-namespace MedGrupo.Api.Controllers
+namespace Prova.Api.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]

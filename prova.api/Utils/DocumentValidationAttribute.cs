@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.RegularExpressions;
 
-namespace MedGrupo.Api.Utils
+namespace Prova.Api.Utils
 {
     public class DocumentValidationAttribute : ValidationAttribute
     {

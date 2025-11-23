@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using MedGrupo.DomainModel.Entity;
+using Prova.DomainModel.Entity;
 
-namespace MedGrupo.DomainModel.Interfaces.Services
+namespace Prova.DomainModel.Interfaces.Services
 {
     public interface IPedidoService
     {

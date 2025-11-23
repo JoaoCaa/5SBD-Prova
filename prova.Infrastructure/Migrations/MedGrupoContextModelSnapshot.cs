@@ -4,12 +4,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using MedGrupo.Infra.Context;
+using Prova.Infra.Context;
 
-namespace MedGrupo.Infra.Migrations
+namespace Prova.Infra.Migrations
 {
-    [DbContext(typeof(MedGrupoContext))]
-    partial class MedGrupoContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(ProvaContext))]
+    partial class ProvaContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
@@ -19,7 +19,7 @@ namespace MedGrupo.Infra.Migrations
                 .HasAnnotation("MySql:MaxIdentifierLength", 64) 
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("MedGrupo.DomainModel.Entity.Contato", b =>
+            modelBuilder.Entity("Prova.DomainModel.Entity.Contato", b =>
             {
                 b.Property<Guid>("Id")
                     .ValueGeneratedOnAdd();

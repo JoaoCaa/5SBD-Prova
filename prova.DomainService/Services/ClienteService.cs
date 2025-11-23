@@ -1,13 +1,13 @@
-using MedGrupo.DomainModel.Entity;
-using MedGrupo.DomainModel.Interfaces.Repositories;
-using MedGrupo.DomainModel.Interfaces.Services;
-using MedGrupo.DomainModel.Interfaces.UoW;
+using Prova.DomainModel.Entity;
+using Prova.DomainModel.Interfaces.Repositories;
+using Prova.DomainModel.Interfaces.Services;
+using Prova.DomainModel.Interfaces.UoW;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MedGrupo.DomainService
+namespace Prova.DomainService
 {
     public class ClienteService : IClienteService
     {

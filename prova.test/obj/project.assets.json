@@ -454,30 +454,30 @@
           }
         }
       },
-      "prova.DomainModel/1.0.0": {
+      "Prova.DomainModel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "bin/placeholder/prova.DomainModel.dll": {}
+          "bin/placeholder/Prova.DomainModel.dll": {}
         },
         "runtime": {
-          "bin/placeholder/prova.DomainModel.dll": {}
+          "bin/placeholder/Prova.DomainModel.dll": {}
         }
       },
-      "prova.DomainService/1.0.0": {
+      "Prova.DomainService/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "prova.DomainModel": "1.0.0"
+          "Prova.DomainModel": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/prova.DomainService.dll": {}
+          "bin/placeholder/Prova.DomainService.dll": {}
         },
         "runtime": {
-          "bin/placeholder/prova.DomainService.dll": {}
+          "bin/placeholder/Prova.DomainService.dll": {}
         }
       }
     }
@@ -1178,12 +1178,12 @@
         "version.txt"
       ]
     },
-    "prova.DomainModel/1.0.0": {
+    "Prova.DomainModel/1.0.0": {
       "type": "project",
       "path": "../prova.DomainModel/prova.DomainModel.csproj",
       "msbuildProject": "../prova.DomainModel/prova.DomainModel.csproj"
     },
-    "prova.DomainService/1.0.0": {
+    "Prova.DomainService/1.0.0": {
       "type": "project",
       "path": "../prova.DomainService/prova.DomainService.csproj",
       "msbuildProject": "../prova.DomainService/prova.DomainService.csproj"
@@ -1196,9 +1196,9 @@
       "NUnit >= 3.14.0",
       "NUnit.Analyzers >= 3.9.0",
       "NUnit3TestAdapter >= 4.5.0",
-      "coverlet.collector >= 6.0.0",
-      "prova.DomainModel >= 1.0.0",
-      "prova.DomainService >= 1.0.0"
+      "Prova.DomainModel >= 1.0.0",
+      "Prova.DomainService >= 1.0.0",
+      "coverlet.collector >= 6.0.0"
     ]
   },
   "packageFolders": {
@@ -1210,7 +1210,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.test\\prova.test.csproj",
-      "projectName": "prova.test",
+      "projectName": "Prova.Test",
       "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.test\\prova.test.csproj",
       "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
       "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.test\\obj\\",

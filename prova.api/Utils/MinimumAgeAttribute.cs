@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MedGrupo.Api.Utils
+namespace Prova.Api.Utils
 {
     public class MinimumAgeAttribute : ValidationAttribute
     {

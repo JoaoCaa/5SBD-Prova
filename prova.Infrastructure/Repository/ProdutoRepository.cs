@@ -3,15 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MedGrupo.DomainModel.Entity;
-using MedGrupo.DomainModel.Interfaces.Repositories;
-using MedGrupo.Infra.Context;
+using Prova.DomainModel.Entity;
+using Prova.DomainModel.Interfaces.Repositories;
+using Prova.Infra.Context;
 
-namespace MedGrupo.Infra.Repository
+namespace Prova.Infra.Repository
 {
     public class ProdutoRepository : Repository<Produto>, IProdutoRepository
     {
-        public ProdutoRepository(MedGrupoContext context) : base(context) { }
+        public ProdutoRepository(ProvaContext context) : base(context) { }
 
         public async Task<IEnumerable<Produto>> GetProdutos()
         {

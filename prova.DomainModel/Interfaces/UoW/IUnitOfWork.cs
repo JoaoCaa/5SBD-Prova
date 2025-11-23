@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace MedGrupo.DomainModel.Interfaces.UoW
+namespace Prova.DomainModel.Interfaces.UoW
 {
     public interface IUnitOfWork
     {

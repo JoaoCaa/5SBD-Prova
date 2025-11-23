@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 
 
-namespace MedGrupo.Api.Configuration
+namespace Prova.Api.Configuration
 {
     public class AutoMapperConfig
     {

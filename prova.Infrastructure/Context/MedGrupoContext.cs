@@ -1,18 +1,18 @@
-﻿using MedGrupo.DomainModel.Entity;
-using MedGrupo.Infra.Mappings;
+﻿using Prova.DomainModel.Entity;
+using Prova.Infra.Mappings;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace MedGrupo.Infra.Context
+namespace Prova.Infra.Context
 {
-    public class MedGrupoContext : DbContext
+    public class ProvaContext : DbContext
     {
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Produto> Produtos { get; set; }
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<ItemPedido> ItemPedidos { get; set; }
 
-        public MedGrupoContext(DbContextOptions<MedGrupoContext> options) : base(options)
+        public ProvaContext(DbContextOptions<ProvaContext> options) : base(options)
         {
         }
 

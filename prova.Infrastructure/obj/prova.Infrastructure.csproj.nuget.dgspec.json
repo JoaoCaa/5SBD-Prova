@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj",
-        "projectName": "prova.DomainModel",
+        "projectName": "Prova.DomainModel",
         "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj",
         "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
         "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\obj\\",
@@ -83,7 +83,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj",
-        "projectName": "prova.DomainService",
+        "projectName": "Prova.DomainService",
         "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj",
         "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
         "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\obj\\",
@@ -156,7 +156,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\prova.Infrastructure.csproj",
-        "projectName": "prova.Infrastructure",
+        "projectName": "Prova.Infrastructure",
         "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\prova.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
         "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\obj\\",

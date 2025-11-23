@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("prova.test")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Prova.Test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d767cfbf76a3f8b784ae7fe500f1f39ec27558d2")]
-[assembly: System.Reflection.AssemblyProductAttribute("prova.test")]
-[assembly: System.Reflection.AssemblyTitleAttribute("prova.test")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f714c70376f36f79d56537fc72de41d1b3ebdad")]
+[assembly: System.Reflection.AssemblyProductAttribute("Prova.Test")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Prova.Test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

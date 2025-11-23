@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using MedGrupo.Api.ViewModels;
-using MedGrupo.DomainModel.Entity;
+using Prova.Api.ViewModels;
+using Prova.DomainModel.Entity;
 
-namespace MedGrupo.Api.Configuration
+namespace Prova.Api.Configuration
 {
     public class ViewModelToDomainMappingProfile : Profile
     {

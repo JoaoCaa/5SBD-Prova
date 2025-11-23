@@ -1,8 +1,6 @@
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace MedGrupo.Api.ViewModels
+namespace Prova.Api.ViewModels
 {
     public class PedidoViewModel
     {

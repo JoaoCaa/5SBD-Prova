@@ -1,8 +1,7 @@
-﻿using MedGrupo.Api.Utils;
-using System.Collections.Generic;
+﻿using Prova.Api.Utils;
 using System.ComponentModel.DataAnnotations;
 
-namespace MedGrupo.Api.ViewModels
+namespace Prova.Api.ViewModels
 {
     public class RegisterUserViewModel
     {
