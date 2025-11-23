@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5N7Y/lf/etw=",
+  "dgSpecHash": "xkLcmRhdvHg=",
   "success": true,
-  "projectFilePath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.Infrastructure\\prova.Infrastructure.csproj",
+  "projectFilePath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\prova.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaoc\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.10\\microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
     "C:\\Users\\joaoc\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.10\\microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
@@ -25,11 +25,8 @@
     {
       "code": "NU1900",
       "level": "Warning",
-      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://nuget.medgrupo.com.br/v3/index.json.",
-      "projectPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.Infrastructure\\prova.Infrastructure.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.Infrastructure\\prova.Infrastructure.csproj",
-      "targetGraphs": []
+      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://nuget.medgrupo.com.br/v3/index.json."
     }
   ]
 }

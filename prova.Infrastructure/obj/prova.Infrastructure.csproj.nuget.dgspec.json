@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.Infrastructure\\prova.Infrastructure.csproj": {}
+    "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\prova.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainModel\\prova.DomainModel.csproj": {
+    "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainModel\\prova.DomainModel.csproj",
+        "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj",
         "projectName": "prova.DomainModel",
-        "projectPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainModel\\prova.DomainModel.csproj",
+        "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj",
         "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainModel\\obj\\",
+        "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\joaoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -46,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -73,26 +75,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainService\\prova.DomainService.csproj": {
+    "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainService\\prova.DomainService.csproj",
+        "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj",
         "projectName": "prova.DomainService",
-        "projectPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainService\\prova.DomainService.csproj",
+        "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj",
         "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainService\\obj\\",
+        "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\joaoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -107,8 +111,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainModel\\prova.DomainModel.csproj": {
-                "projectPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainModel\\prova.DomainModel.csproj"
+              "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
+                "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj"
               }
             }
           }
@@ -123,7 +127,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -144,26 +148,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.Infrastructure\\prova.Infrastructure.csproj": {
+    "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\prova.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.Infrastructure\\prova.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\prova.Infrastructure.csproj",
         "projectName": "prova.Infrastructure",
-        "projectPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.Infrastructure\\prova.Infrastructure.csproj",
+        "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\prova.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\joaoc\\.nuget\\packages\\",
-        "outputPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.Infrastructure\\obj\\",
+        "outputPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\joaoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -178,11 +184,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainModel\\prova.DomainModel.csproj": {
-                "projectPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainModel\\prova.DomainModel.csproj"
+              "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj": {
+                "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\prova.DomainModel.csproj"
               },
-              "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainService\\prova.DomainService.csproj": {
-                "projectPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.DomainService\\prova.DomainService.csproj"
+              "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj": {
+                "projectPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\prova.DomainService.csproj"
               }
             }
           }
@@ -197,7 +203,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -232,7 +238,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

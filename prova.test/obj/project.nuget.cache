@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xCxNU3QLYqc=",
+  "dgSpecHash": "ChnKGTKrbbQ=",
   "success": true,
-  "projectFilePath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.test\\prova.test.csproj",
+  "projectFilePath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.test\\prova.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaoc\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\joaoc\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
@@ -22,11 +22,8 @@
     {
       "code": "NU1900",
       "level": "Warning",
-      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://nuget.medgrupo.com.br/v3/index.json.",
-      "projectPath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.test\\prova.test.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Fontes\\Estudos\\Prova\\MedGrupo\\prova.test\\prova.test.csproj",
-      "targetGraphs": []
+      "message": "Ocorreu um erro ao obter os dados de vulnerabilidade do pacote: Não é possível carregar o índice de serviço para a origem https://nuget.medgrupo.com.br/v3/index.json."
     }
   ]
 }
