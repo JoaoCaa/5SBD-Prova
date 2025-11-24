@@ -15,12 +15,10 @@ namespace Prova.Api.Configuration
     {
         public static IServiceCollection ResolveDependencies(this IServiceCollection services, IConfiguration configuration)
         {
-            // === DB CONTEXT (CORRETO) ===
             services.AddDbContext<ProvaContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"))
             );
 
-            // === API Versioning (necessário p/ Swagger de versionamento) ===
             services.AddApiVersioning(options =>
             {
                 options.AssumeDefaultVersionWhenUnspecified = true;
@@ -34,13 +32,10 @@ namespace Prova.Api.Configuration
                 options.SubstituteApiVersionInUrl = true;
             });
 
-            // === Swagger ===
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
 
-            // === Unit Of Work ===
             services.AddScoped<IUnitOfWork, EntityFrameworkUnitOfWork>();
 
-            // === Repositórios e Serviços ===
             services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<IClienteService, ClienteService>();
 

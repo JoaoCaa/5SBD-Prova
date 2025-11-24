@@ -14,13 +14,11 @@ namespace Prova.Api.Controllers
     {
         private readonly IClienteService _service;
         private readonly IMapper _mapper;
-        private readonly ILogger _logger;
 
-        public ClienteController(IClienteService service, IMapper mapper, ILogger<ClienteController> logger)
+        public ClienteController(IClienteService service, IMapper mapper)
         {
             _service = service;
             _mapper = mapper;
-            _logger = logger;
         }
 
         [HttpGet]
@@ -42,7 +40,6 @@ namespace Prova.Api.Controllers
         {
             if (!ModelState.IsValid) return BadRequest();
             var cliente = _mapper.Map<Cliente>(vm);
-            // ensure server generates the id
             cliente.Id = Guid.NewGuid();
             await _service.Add(cliente);
             return Ok();
@@ -51,7 +48,7 @@ namespace Prova.Api.Controllers
         [HttpPut("{id:guid}")]
         public async Task<ActionResult> Put(Guid id, ClienteViewModel vm)
         {
-            if (id != vm.Id) return BadRequest();
+            vm.Id = id;
             if (!ModelState.IsValid) return BadRequest();
             await _service.Update(_mapper.Map<Cliente>(vm));
             return Ok();

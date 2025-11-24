@@ -69,7 +69,7 @@ namespace Prova.Api.Controllers
         [HttpPut("{id:guid}")]
         public async Task<ActionResult> Put(Guid id, ItemPedidoViewModel vm)
         {
-            if (id != vm.Id) return BadRequest();
+            vm.Id = id;
             if (!ModelState.IsValid) return BadRequest();
             await _service.Update(_mapper.Map<ItemPedido>(vm));
             return Ok();

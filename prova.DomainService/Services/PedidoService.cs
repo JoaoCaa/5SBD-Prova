@@ -2,34 +2,40 @@ using Prova.DomainModel.Entity;
 using Prova.DomainModel.Interfaces.Repositories;
 using Prova.DomainModel.Interfaces.Services;
 using Prova.DomainModel.Interfaces.UoW;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Prova.DomainService
 {
     public class PedidoService : IPedidoService
     {
         private IPedidoRepository _pedidoRepository;
+        private IItemPedidoRepository _itemPedidoRepository;
+
         private IUnitOfWork _unitOfWork;
 
-        public PedidoService(IPedidoRepository pedidoRepository, IUnitOfWork unitOfWork)
+        public PedidoService(IPedidoRepository pedidoRepository, IUnitOfWork unitOfWork, IItemPedidoRepository itemPedidoRepository)
         {
             _pedidoRepository = pedidoRepository;
             _unitOfWork = unitOfWork;
+            _itemPedidoRepository = itemPedidoRepository;
         }
 
         public async Task Add(Pedido pedido)
         {
-            // Total is maintained in the database (trigger). Do not calculate here.
-            _pedidoRepository.Create(pedido);
+           _pedidoRepository.Create(pedido);
+
+            if(pedido.Items.Count > 0)
+            {
+                foreach (var item in pedido.Items)
+                {
+                     _itemPedidoRepository.Create(item);
+                }
+            }
+
             await _unitOfWork.CommitAsync();
         }
 
         public async Task Update(Pedido pedido)
         {
-            // Total is maintained in the database (trigger). Do not calculate here.
             _pedidoRepository.Update(pedido);
             await _unitOfWork.CommitAsync();
         }

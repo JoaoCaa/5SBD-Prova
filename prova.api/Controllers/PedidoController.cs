@@ -14,13 +14,11 @@ namespace Prova.Api.Controllers
     {
         private readonly IPedidoService _service;
         private readonly IMapper _mapper;
-        private readonly ILogger _logger;
 
-        public PedidoController(IPedidoService service, IMapper mapper, ILogger<PedidoController> logger)
+        public PedidoController(IPedidoService service, IMapper mapper)
         {
             _service = service;
             _mapper = mapper;
-            _logger = logger;
         }
 
         [HttpGet]
@@ -42,7 +40,6 @@ namespace Prova.Api.Controllers
         {
             if (!ModelState.IsValid) return BadRequest();
             var pedido = _mapper.Map<Pedido>(vm);
-            // generate server-side ids for pedido and its items
             pedido.Id = Guid.NewGuid();
             if (pedido.Items != null)
             {
@@ -59,7 +56,7 @@ namespace Prova.Api.Controllers
         [HttpPut("{id:guid}")]
         public async Task<ActionResult> Put(Guid id, PedidoViewModel vm)
         {
-            if (id != vm.Id) return BadRequest();
+            vm.Id = id;
             if (!ModelState.IsValid) return BadRequest();
             await _service.Update(_mapper.Map<Pedido>(vm));
             return Ok();

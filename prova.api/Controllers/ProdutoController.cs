@@ -14,13 +14,11 @@ namespace Prova.Api.Controllers
     {
         private readonly IProdutoService _service;
         private readonly IMapper _mapper;
-        private readonly ILogger _logger;
 
-        public ProdutoController(IProdutoService service, IMapper mapper, ILogger<ProdutoController> logger)
+        public ProdutoController(IProdutoService service, IMapper mapper)
         {
             _service = service;
             _mapper = mapper;
-            _logger = logger;
         }
 
         [HttpGet]
@@ -50,7 +48,7 @@ namespace Prova.Api.Controllers
         [HttpPut("{id:guid}")]
         public async Task<ActionResult> Put(Guid id, ProdutoViewModel vm)
         {
-            if (id != vm.Id) return BadRequest();
+            vm.Id = id;
             if (!ModelState.IsValid) return BadRequest();
             await _service.Update(_mapper.Map<Produto>(vm));
             return Ok();

@@ -3,8 +3,127 @@
   "WorkspaceRootPath": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{79446E99-9723-4FEE-BEC4-199286005E90}|prova.DomainService\\prova.DomainService.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.domainservice\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79446E99-9723-4FEE-BEC4-199286005E90}|prova.DomainService\\prova.DomainService.csproj|solutionrelative:prova.domainservice\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joaoc\\AppData\\Local\\Temp\\.vsdbgsrc\\06d671fa943ce0dca2713eb544d18c5fc46f7ace68d3e93a5637132b75ee5260\\ThreadPoolWorkQueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\controllers\\itempedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\controllers\\itempedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79446E99-9723-4FEE-BEC4-199286005E90}|prova.DomainService\\prova.DomainService.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.domainservice\\services\\itempedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79446E99-9723-4FEE-BEC4-199286005E90}|prova.DomainService\\prova.DomainService.csproj|solutionrelative:prova.domainservice\\services\\itempedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46D1680-3743-4F7C-8E47-0799A17262C9}|prova.DomainModel\\prova.DomainModel.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.domainmodel\\interfaces\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A46D1680-3743-4F7C-8E47-0799A17262C9}|prova.DomainModel\\prova.DomainModel.csproj|solutionrelative:prova.domainmodel\\interfaces\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64DF1A7-D7BB-4016-A405-D05DF8B10D08}|prova.Infrastructure\\prova.Infrastructure.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.infrastructure\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64DF1A7-D7BB-4016-A405-D05DF8B10D08}|prova.Infrastructure\\prova.Infrastructure.csproj|solutionrelative:prova.infrastructure\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46D1680-3743-4F7C-8E47-0799A17262C9}|prova.DomainModel\\prova.DomainModel.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.domainmodel\\entity\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A46D1680-3743-4F7C-8E47-0799A17262C9}|prova.DomainModel\\prova.DomainModel.csproj|solutionrelative:prova.domainmodel\\entity\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2F81DFF-E3AD-4E68-BF48-9B13691016CF}|prova.test\\prova.test.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.test\\pedidoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2F81DFF-E3AD-4E68-BF48-9B13691016CF}|prova.test\\prova.test.csproj|solutionrelative:prova.test\\pedidoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64DF1A7-D7BB-4016-A405-D05DF8B10D08}|prova.Infrastructure\\prova.Infrastructure.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.infrastructure\\uow\\entityframeworkunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64DF1A7-D7BB-4016-A405-D05DF8B10D08}|prova.Infrastructure\\prova.Infrastructure.csproj|solutionrelative:prova.infrastructure\\uow\\entityframeworkunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64DF1A7-D7BB-4016-A405-D05DF8B10D08}|prova.Infrastructure\\prova.Infrastructure.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.infrastructure\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64DF1A7-D7BB-4016-A405-D05DF8B10D08}|prova.Infrastructure\\prova.Infrastructure.csproj|solutionrelative:prova.infrastructure\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F64DF1A7-D7BB-4016-A405-D05DF8B10D08}|prova.Infrastructure\\prova.Infrastructure.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.infrastructure\\mappings\\clientemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F64DF1A7-D7BB-4016-A405-D05DF8B10D08}|prova.Infrastructure\\prova.Infrastructure.csproj|solutionrelative:prova.infrastructure\\mappings\\clientemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46D1680-3743-4F7C-8E47-0799A17262C9}|prova.DomainModel\\prova.DomainModel.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.domainmodel\\entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A46D1680-3743-4F7C-8E47-0799A17262C9}|prova.DomainModel\\prova.DomainModel.csproj|solutionrelative:prova.domainmodel\\entity\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\configuration\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\configuration\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\configuration\\domaintoviewmodelmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\configuration\\domaintoviewmodelmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A46D1680-3743-4F7C-8E47-0799A17262C9}|prova.DomainModel\\prova.DomainModel.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.domainmodel\\entity\\itempedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A46D1680-3743-4F7C-8E47-0799A17262C9}|prova.DomainModel\\prova.DomainModel.csproj|solutionrelative:prova.domainmodel\\entity\\itempedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79446E99-9723-4FEE-BEC4-199286005E90}|prova.DomainService\\prova.DomainService.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.domainservice\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79446E99-9723-4FEE-BEC4-199286005E90}|prova.DomainService\\prova.DomainService.csproj|solutionrelative:prova.domainservice\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79446E99-9723-4FEE-BEC4-199286005E90}|prova.DomainService\\prova.DomainService.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.domainservice\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79446E99-9723-4FEE-BEC4-199286005E90}|prova.DomainService\\prova.DomainService.csproj|solutionrelative:prova.domainservice\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\controllers\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\controllers\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\configuration\\viewmodeltodomainmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\configuration\\viewmodeltodomainmappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\configuration\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\configuration\\swaggerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\configuration\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\configuration\\identityconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2F81DFF-E3AD-4E68-BF48-9B13691016CF}|prova.test\\prova.test.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.test\\itempedidoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2F81DFF-E3AD-4E68-BF48-9B13691016CF}|prova.test\\prova.test.csproj|solutionrelative:prova.test\\itempedidoservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\utils\\uniqueidentificatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\utils\\uniqueidentificatorattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\utils\\passwordvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\utils\\passwordvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\utils\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\utils\\minimumageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\utils\\documentvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\utils\\documentvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|c:\\fontes\\faculdade\\5sbd\\5sbd-prova\\prova.api\\utils\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F57267-D07A-4AC0-B691-B8661451510E}|prova.api\\prova.Application.csproj|solutionrelative:prova.api\\utils\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +133,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,15 +157,405 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThreadPoolWorkQueue.cs",
+              "DocumentMoniker": "C:\\Users\\joaoc\\AppData\\Local\\Temp\\.vsdbgsrc\\06d671fa943ce0dca2713eb544d18c5fc46f7ace68d3e93a5637132b75ee5260\\ThreadPoolWorkQueue.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\joaoc\\AppData\\Local\\Temp\\.vsdbgsrc\\06d671fa943ce0dca2713eb544d18c5fc46f7ace68d3e93a5637132b75ee5260\\ThreadPoolWorkQueue.cs",
+              "ToolTip": "C:\\Users\\joaoc\\AppData\\Local\\Temp\\.vsdbgsrc\\06d671fa943ce0dca2713eb544d18c5fc46f7ace68d3e93a5637132b75ee5260\\ThreadPoolWorkQueue.cs [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\joaoc\\AppData\\Local\\Temp\\.vsdbgsrc\\06d671fa943ce0dca2713eb544d18c5fc46f7ace68d3e93a5637132b75ee5260\\ThreadPoolWorkQueue.cs [Somente Leitura]",
+              "ViewState": "AgIAANYCAAAAAAAAAAArwOMCAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T23:00:30.771Z",
+              "EditorCaption": " [Somente Leitura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "prova.Infrastructure\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\Repository\\Repository.cs",
+              "RelativeToolTip": "prova.Infrastructure\\Repository\\Repository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAD4vyAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:14:31.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EntityFrameworkUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\UoW\\EntityFrameworkUnitOfWork.cs",
+              "RelativeDocumentMoniker": "prova.Infrastructure\\UoW\\EntityFrameworkUnitOfWork.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\UoW\\EntityFrameworkUnitOfWork.cs",
+              "RelativeToolTip": "prova.Infrastructure\\UoW\\EntityFrameworkUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:07:01.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidoServiceTests.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.test\\PedidoServiceTests.cs",
+              "RelativeDocumentMoniker": "prova.test\\PedidoServiceTests.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.test\\PedidoServiceTests.cs",
+              "RelativeToolTip": "prova.test\\PedidoServiceTests.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T22:00:30.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\Services\\PedidoService.cs",
+              "RelativeDocumentMoniker": "prova.DomainService\\Services\\PedidoService.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\Services\\PedidoService.cs",
+              "RelativeToolTip": "prova.DomainService\\Services\\PedidoService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:13:54.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\Interfaces\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "prova.DomainModel\\Interfaces\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\Interfaces\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "prova.DomainModel\\Interfaces\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:43:45.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pedido.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\Entity\\Pedido.cs",
+              "RelativeDocumentMoniker": "prova.DomainModel\\Entity\\Pedido.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\Entity\\Pedido.cs",
+              "RelativeToolTip": "prova.DomainModel\\Entity\\Pedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:58:21.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "prova.api\\Controllers\\PedidoController.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "prova.api\\Controllers\\PedidoController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:04:34.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemPedidoController.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\ItemPedidoController.cs",
+              "RelativeDocumentMoniker": "prova.api\\Controllers\\ItemPedidoController.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\ItemPedidoController.cs",
+              "RelativeToolTip": "prova.api\\Controllers\\ItemPedidoController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:03:43.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemPedidoService.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\Services\\ItemPedidoService.cs",
+              "RelativeDocumentMoniker": "prova.DomainService\\Services\\ItemPedidoService.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\Services\\ItemPedidoService.cs",
+              "RelativeToolTip": "prova.DomainService\\Services\\ItemPedidoService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAD4vx4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:13:45.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "prova.api\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "prova.api\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:02:20.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClienteMapping.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\Mappings\\ClienteMapping.cs",
+              "RelativeDocumentMoniker": "prova.Infrastructure\\Mappings\\ClienteMapping.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\Mappings\\ClienteMapping.cs",
+              "RelativeToolTip": "prova.Infrastructure\\Mappings\\ClienteMapping.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:59:11.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\Entity\\Cliente.cs",
+              "RelativeDocumentMoniker": "prova.DomainModel\\Entity\\Cliente.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\Entity\\Cliente.cs",
+              "RelativeToolTip": "prova.DomainModel\\Entity\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:38:48.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "prova.Infrastructure\\Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.Infrastructure\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "prova.Infrastructure\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T22:39:29.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "prova.api\\Configuration\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\AutoMapperConfig.cs",
+              "RelativeToolTip": "prova.api\\Configuration\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:07:57.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DomainToViewModelMappingProfile.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\DomainToViewModelMappingProfile.cs",
+              "RelativeDocumentMoniker": "prova.api\\Configuration\\DomainToViewModelMappingProfile.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\DomainToViewModelMappingProfile.cs",
+              "RelativeToolTip": "prova.api\\Configuration\\DomainToViewModelMappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:07:58.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemPedido.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\Entity\\ItemPedido.cs",
+              "RelativeDocumentMoniker": "prova.DomainModel\\Entity\\ItemPedido.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainModel\\Entity\\ItemPedido.cs",
+              "RelativeToolTip": "prova.DomainModel\\Entity\\ItemPedido.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:58:14.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IdentityConfig.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\IdentityConfig.cs",
+              "RelativeDocumentMoniker": "prova.api\\Configuration\\IdentityConfig.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\IdentityConfig.cs",
+              "RelativeToolTip": "prova.api\\Configuration\\IdentityConfig.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:08:04.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SwaggerConfiguration.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\SwaggerConfiguration.cs",
+              "RelativeDocumentMoniker": "prova.api\\Configuration\\SwaggerConfiguration.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\SwaggerConfiguration.cs",
+              "RelativeToolTip": "prova.api\\Configuration\\SwaggerConfiguration.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:08:10.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DependencyInjectionConfig.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\DependencyInjectionConfig.cs",
+              "RelativeDocumentMoniker": "prova.api\\Controllers\\DependencyInjectionConfig.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\DependencyInjectionConfig.cs",
+              "RelativeToolTip": "prova.api\\Controllers\\DependencyInjectionConfig.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:03:42.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "prova.DomainService\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\Services\\ClienteService.cs",
+              "RelativeToolTip": "prova.DomainService\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:13:31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "prova.DomainService\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.DomainService\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "prova.DomainService\\Services\\ProdutoService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:14:07.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "prova.api\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "prova.api\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T02:04:39.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "prova.api\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "prova.api\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:07:39.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ViewModelToDomainMappingProfile.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\ViewModelToDomainMappingProfile.cs",
+              "RelativeDocumentMoniker": "prova.api\\Configuration\\ViewModelToDomainMappingProfile.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Configuration\\ViewModelToDomainMappingProfile.cs",
+              "RelativeToolTip": "prova.api\\Configuration\\ViewModelToDomainMappingProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:08:13.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UniqueIdentificatorAttribute.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\UniqueIdentificatorAttribute.cs",
+              "RelativeDocumentMoniker": "prova.api\\Utils\\UniqueIdentificatorAttribute.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\UniqueIdentificatorAttribute.cs",
+              "RelativeToolTip": "prova.api\\Utils\\UniqueIdentificatorAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:06:34.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PasswordValidationAttribute.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\PasswordValidationAttribute.cs",
+              "RelativeDocumentMoniker": "prova.api\\Utils\\PasswordValidationAttribute.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\PasswordValidationAttribute.cs",
+              "RelativeToolTip": "prova.api\\Utils\\PasswordValidationAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:06:32.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MinimumAgeAttribute.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\MinimumAgeAttribute.cs",
+              "RelativeDocumentMoniker": "prova.api\\Utils\\MinimumAgeAttribute.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\MinimumAgeAttribute.cs",
+              "RelativeToolTip": "prova.api\\Utils\\MinimumAgeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:06:29.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "ItemPedidoServiceTests.cs",
               "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.test\\ItemPedidoServiceTests.cs",
               "RelativeDocumentMoniker": "prova.test\\ItemPedidoServiceTests.cs",
               "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.test\\ItemPedidoServiceTests.cs",
               "RelativeToolTip": "prova.test\\ItemPedidoServiceTests.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBkAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-23T21:57:47.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DocumentValidationAttribute.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\DocumentValidationAttribute.cs",
+              "RelativeDocumentMoniker": "prova.api\\Utils\\DocumentValidationAttribute.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\DocumentValidationAttribute.cs",
+              "RelativeToolTip": "prova.api\\Utils\\DocumentValidationAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:06:27.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\AppSettings.cs",
+              "RelativeDocumentMoniker": "prova.api\\Utils\\AppSettings.cs",
+              "ToolTip": "C:\\Fontes\\Faculdade\\5SBD\\5SBD-Prova\\prova.api\\Utils\\AppSettings.cs",
+              "RelativeToolTip": "prova.api\\Utils\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T21:06:25.526Z",
               "EditorCaption": ""
             }
           ]

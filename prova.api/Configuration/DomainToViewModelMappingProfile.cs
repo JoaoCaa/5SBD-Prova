@@ -8,7 +8,6 @@ namespace Prova.Api.Configuration
     {
         public DomainToViewModelMappingProfile()
         {
-            // Contato mapping removed
             CreateMap<Cliente, ClienteViewModel>().ReverseMap();
             CreateMap<Produto, ProdutoViewModel>().ReverseMap();
             CreateMap<Pedido, PedidoViewModel>().ReverseMap();

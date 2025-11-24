@@ -1,8 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Prova.DomainModel;
 using Prova.DomainModel.Interfaces.Repositories;
 using Prova.Infra.Context;
@@ -48,6 +44,14 @@ namespace Prova.Infra.Repository
         public void Dispose()
         {
             Db?.Dispose();
+        }
+
+        public async Task<TEntity> CreateAsync(TEntity entity)
+        {
+            await DbSet.AddAsync(entity);
+            await Db.SaveChangesAsync();
+
+            return entity;
         }
     }
 }

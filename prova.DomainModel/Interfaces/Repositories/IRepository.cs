@@ -12,5 +12,6 @@ namespace Prova.DomainModel.Interfaces.Repositories
         Task<IEnumerable<TEntity>> ReadAll();
         void Update(TEntity entity);
         void Delete(Guid id);
+        Task<TEntity> CreateAsync(TEntity entity);
     }
 }
